@@ -4,11 +4,11 @@ function alert(array) {
 	console.log(array);
 	console.log('----------------------------------------');
 }
-function comporaToUp (a,b){
+function compareToUp (a,b){
     return a-b;
 }
 
-function comporaToDown (a,b){
+function compareToDown (a,b){
     return b-a;
 }
 
@@ -22,10 +22,10 @@ function filterNegative (a){
 let arr = [1,5,8,2,55,-3,7,-10,34,24,7,32,-89,3,98]
 alert(arr);
 
-arr.sort(comporaToUp);
+arr.sort(compareToUp);
 alert(arr);
 
-arr.sort(comporaToDown);
+arr.sort(compareToDown);
 alert(arr);
 
 //Task2
